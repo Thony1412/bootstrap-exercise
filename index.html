@@ -17,8 +17,8 @@
         <img src="./image/ske.png" height="80px" />
         <h1>Carlo is Reformado?</h1>
         <br/>
-        <button class="red-button">
-          <img src="./image/google.png" /><a href="https://www.youtube.com/shorts/SXHMnicI6Pg">Log in with Google</a>
+        <button class="red-button" onclick="redirectToGoogle()">
+          <img src="./image/google.png" />Log in with Google
         </button>
         <div class="WITH"><h1>------OR LOGIN WITH EMAIL------</h1></div>
         <form>
@@ -73,5 +73,11 @@
         <img src="./image/ind.png" height="900px" width="900px" />
       </div>
     </div>
+
+    <script>
+      function redirectToGoogle() {
+      window.location.href = "https://www.youtube.com/shorts/SXHMnicI6Pg";
+    }
+</script>
   </body>
 </html>
